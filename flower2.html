@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower-2</title>
+    <style>
+        #outer{
+            height:800px;
+            width:800px;
+            border: 70px solid pink;
+            background-color: aqua;
+        }
+        #canva{
+            background-color: white;
+        }
+        #innerArea{
+            height: 800px;
+            width: 800px;
+        }
+        #row1{
+            height:20px;
+            width:800px;
+            /* border:1px solid white; */
+        }
+        #row2{
+            height:100px;
+            width:800px;
+            /* border: 1px solid white; */
+        }
+        #beforePattle1{
+            height: 100px;
+            width: 150px;
+            float: left;
+
+        }
+        #pattle1{
+            height:100px;
+            width:200px;
+            border-radius: 50% 50% 0% 50%;
+            background-color: yellow;
+            float: left;
+        }
+        #pattleSpace1{
+            height: 100px;
+            width: 40px;
+            float: left;
+
+        }
+        #pattle2{
+            height: 100px;
+            width: 200px;
+            float: left;
+            background-color: yellow;
+            border-radius: 50% 50% 50% 0%;
+        }
+        #afterPattle2{
+            height: 100px;
+            width: 120px;
+            float: left;
+        }
+        #redMoon{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: orange;
+        }
+        #row3{
+            height: 20px;
+            width:800px;
+            /* border: 1px solid white; */
+        }
+        #r3box1{
+            height: 20px;
+            width: 350px;
+            float: left;
+        }
+        #r3box2{
+            height:20px;
+            width:40px;
+            float: left;
+            background-color: red;
+            border-radius: 50%;
+        }
+        #r3box3{
+            height:20px;
+            width: 350px;
+            float: left;
+        }
+        #row4{
+            height:100px;
+            width:800px;
+            /* border: 1px solid white; */
+        }
+
+         #beforePattle3{
+            height: 100px;
+            width: 150px;
+            float: left;
+
+        }
+        #pattle3{
+            height:100px;
+            width:200px;
+            border-radius: 50% 0% 50% 50%;
+            background-color: yellow;
+            float: left;
+        }
+        #pattleSpace3{
+            height: 100px;
+            width: 40px;
+            float: left;
+
+        }
+        #pattle4{
+            height: 100px;
+            width: 200px;
+            float: left;
+            background-color: yellow;
+            border-radius: 0% 50% 50% 50%;
+        }
+        #afterPattle4{
+            height: 100px;
+            width: 120px;
+            float: left;
+        }
+
+        #leafSpace{
+            height:300px;
+            width: 800px;
+            border: 1px solid white;
+        }
+        #potSpace{
+            height:250px;
+            width: 800px;
+            border:1px solid white;
+        }
+        #stickSpace1{
+            height: 250px;
+            width: 290px;
+            background-color:white;
+            float: left;
+        }
+        #leaf1{
+            height: 100px;
+            width: 290px;
+            border-radius: 0% 50% 0% 50% ;
+            background-color: green;
+            float: left;
+        }
+        #leaf2{
+            height: 100px;
+            width: 270px;
+            border-radius: 50% 0% 50% 0% ;
+            background-color: green;
+            float: left;
+        }
+        #steak1{
+            width:30px;
+            height:280px;
+            background-color: brown;
+            float: left;
+            border-radius: 20%;
+        }
+        #steakSpace2{
+            height: 250px;
+            width:100px;
+            float: left;
+        }
+        #steak2{
+            height: 280px;
+            width: 30px;
+            background-color: brown;
+            float: left;
+            border-radius: 20%;
+        }
+        #r5{
+            height: 20px;
+            width: 800px;
+            border: 1px solid white;
+            float: left;
+        }
+
+
+        #potSpace{
+            height:200px;
+            width: 800px;
+            background-color:green;
+            float: left;
+        }
+        #potDesign{
+            height:20px;
+            width: 800px;
+            /* border-radius: 20%; */
+            border: 1px solid white;
+            float: left;
+            background-color: white;
+        }
+         #potDesignBox1{
+            height: 20px;
+            width:200px;
+            float: left;
+         }
+         #potDesignBox2{
+            height: 20px;
+            width: 360px;
+            float: left;
+            border-radius: 30%;
+            background-color:blue;
+         }
+         #potSpace{
+            height:200px;
+            width: 800px;
+            background-color:white;
+            float: left;
+         }
+         #potSpace1{
+            height:200px;
+            width: 270px;
+            background-color: white;
+            float: left;
+         }
+          #potSpace2{
+            height:230px;
+            width: 220px;
+            background-color:blue;
+            border-radius: 0%  0% 40% 40%;
+            float: left;
+         }
+          #potSpace3{
+            height:200px;
+            width: 310px;
+            background-color: white;
+            float: left;
+         }
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="canva">
+        <div id="innerArea">
+            <div id="row1"></div>
+            <div id="row2">
+                <div id="beforePattle1"></div>
+                <div id="pattle1"></div>
+                <div id="pattleSpace1"></div>
+                <div id="pattle2"></div>
+                <div id="afterPattle1"></div>
+                <div id="redMoon"></div>
+            </div>
+            <div id="row3">
+                <div id="r3box1"></div>
+                <div id="r3box2"></div>
+                <div id="r3box3"></div>
+            </div>
+            <div id="row4">
+                <div id="beforePattle3"></div>
+                <div id="pattle3"></div>
+                <div id="pattleSpace3"></div>
+                <div id="pattle4"></div>
+                <div id="afterPattle4"></div>
+            </div>
+            <div id="stickSpace1">
+                <div id="leaf1"></div>
+            </div>
+            <div id="steak1"></div>
+            <div id="steakSpace2"></div>
+            <div id="steak2"></div>
+            <div id="leaf2"></div>
+            
+          <div id="r5">      
+            <div id="potDesign">
+                <div id="potDesignBox1"></div>
+                <div id="potDesignBox2"</div>
+            </div>
+            <div id="potSpace">
+                <div id="potSpace1"></div>
+                <div id="potSpace2"></div>
+                <div id="potSpace3"></div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>

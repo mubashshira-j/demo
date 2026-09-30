@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #outer {
+      width: 500px;
+      background-color: white;
+      text-align: center;
+    }
+
+    #head {
+      display: inline-block;
+      width: 170px;
+      height: 170px;
+      background-color: beige;
+      border: 3px solid black;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 55px;
+    }
+
+    #eyes-row {
+      text-align: center;
+    }
+
+    #eye-left,
+    #eye-right {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      background-color: black;
+      border-radius: 50%;
+    }
+
+    #eye-spacer {
+      display: inline-block;
+      width: 40px;
+      height: 1px;
+    }
+
+    #nose-row {
+      text-align: center;
+    }
+
+    #nose {
+      display: inline-block;
+      width: 6px;
+      height: 38px;
+      background-color: black;
+    }
+
+    #mouth-row {
+      text-align: center;
+    }
+
+    #mouth {
+      display: inline-block;
+      width: 100px;
+      height: 6px;
+      background-color: black;
+      border-radius: 3px;
+    }
+
+
+    #neck {
+      display: inline-block;
+      width: 60px;
+      height: 55px;
+      background-color: beige;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+
+    #body {
+      display: inline-block;
+      width: 180px;
+      height: 320px;
+      background-color: aquamarine;
+      border: 3px solid black;
+      border-radius: 10px;
+      text-align: center;
+      padding-top: 25px;
+    }
+
+    #button-row1,
+    #button-row2,
+    #button-row3,
+    #button-row4,
+    #button-row5 {
+      /* text-align: center; */
+      padding-top: 22px;
+    }
+
+    #button1,
+    #button2,
+    #button3,
+    #button4,
+    #button5 {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-color: black;
+      border-radius: 50%;
+    }
+
+    #pocket-row {
+      text-align: right;
+      padding-right: 25px;
+      padding-top: 10px;
+    }
+
+    #pocket {
+      display: inline-block;
+      width: 45px;
+      height: 50px;
+      background-color: blue;
+      border: 2px solid black;
+      border-radius: 0 0 10px 10px;
+    }
+
+    /* 
+  ---- LEGS ---- 
+ */
+
+    #leg-left,
+    #leg-right {
+      display: inline-block;
+      width: 55px;
+      height: 175px;
+      background-color: blue;
+      border: 2px solid black;
+    }
+
+    #leg-spacer {
+      display: inline-block;
+      width: 20px;
+      height: 1px;
+    }
+
+
+    #shoe-left,
+    #shoe-right {
+      display: inline-block;
+      width: 60px;
+      height: 40px;
+      background-color: darkslateblue;
+      border: 2px solid black;
+      border-radius: 10px 25px 25px 10px;
+    }
+
+    #shoe-spacer {
+      display: inline-block;
+      width: 22px;
+      height: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="outer">
+
+    <div id="head-wrap">
+      <div id="head">
+        <div id="eyes-row">
+          <div id="eye-left"></div>
+          <div id="eye-spacer"></div>
+          <div id="eye-right"></div>
+        </div>
+        <div id="nose-row">
+          <div id="nose"></div>
+        </div>
+        <div id="mouth-row">
+          <div id="mouth"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="neck-wrap">
+      <div id="neck"></div>
+    </div>
+
+    <div id="body-area">
+      <div id="body">
+        <div id="button-row1">
+          <div id="button1"></div>
+        </div>
+        <div id="pocket-row">
+          <div id="pocket"></div>
+        </div>
+        <div id="button-row2">
+          <div id="button2"></div>
+        </div>
+        <div id="button-row3">
+          <div id="button3"></div>
+        </div>
+        <div id="button-row4">
+          <div id="button4"></div>
+        </div>
+        <div id="button-row5">
+          <div id="button5"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="leg-left"></div>
+    <div id="leg-spacer"></div>
+    <div id="leg-right"></div>
+
+
+    <div id="shoes-area">
+      <div id="shoe-left"></div>
+      <div id="shoe-spacer"></div>
+      <div id="shoe-right"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
